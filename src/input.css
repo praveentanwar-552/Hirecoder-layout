@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./output.css);
+
+.bgImage {
+    background-image: url(./image/section-green-img.png);
+}
+
+.outfit {
+    font-family: "Outfit", "sans-serif";
+}
+
+.inter {
+    font-family: "Inter", " sans-serif";
+}
+
+.positionAbsolute {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-55%, 75%);
+}
+
+.positionAbsolute-2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.personSlider .slick-prev:before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.personSlider .slick-prev:before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.first-slider .slick-next:before {
+
+    display: none;
+}
+
+.first-slider .slick-prev:before {
+
+    display: none;
+}
+
+.bgImage-2 {
+    background-image: url(./image/section-2-green-img.png);
+}
+
+.bgImage-3 {
+    background-image: url(./image/section-4-bg-img.png);
+}
+
+.bgImage-4 {
+    background-image: url(./image/footer-img.png);
+}
